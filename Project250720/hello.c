@@ -5,7 +5,7 @@ main()
 {
 	int c;
 	
-	while ((c = getchar()) !=EOF) 
+	while (c = getchar() != EOF) // Note: This line has a bug, it should be `(c = getchar()) != EOF` 
 	{
 		putchar(c);
 		// c = getchar(); 
