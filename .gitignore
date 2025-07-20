@@ -416,3 +416,8 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/vs
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
